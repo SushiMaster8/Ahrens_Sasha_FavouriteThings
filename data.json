@@ -1,0 +1,29 @@
+{
+    "Hockey": {
+        "imageA": "PUCK.jpg",
+        "title": "Hockey: My favourite sport",
+        "description": "Hockey has been my favourite sport since I started skating lessons when I was around 6 years old. My dad was a big fan of hockey and really bred me and my brothers into the sport. I always watched games, sorted and collected trading cards, and have been playing since I was 8. I remember skating on frozen ponds as a kid and watching the 2010 stanley cup finals at my neighbours house (we didn't have cable). I still love hockey and only wish the rest of the world agreed with me.",
+        "favourites": "My favourite team has always been the Toronto Maple Leafs, no matter how much they lose I have somehow remained a fan. I've had a few players I've liked over the years, I always like whoever is on the Leafs, my favourites being Matthews, Marner, Tavares, Kadri, Bozak, and Kessel. My favourite player of all time however, would have to be Alex Ovechkin",
+        "imageB": "TML.jpg", 
+        "imageC": "kessel.jpg",
+        "imageD": "OVI.jpg"       
+    },
+    "Music": {
+        "imageA": "rodeo.jpg",
+        "title": "Rap, R&B, Pop, Rock; My favouite music genres and artists",
+        "description": "I only really started getting into music in 2017/2018 when I started discovering my own taste. You obviously hear the radio and pick up songs from there but it wasn't until high school that I started making playlists and finding the music I liked. It was mostly rap in early days and still mostly is but different artists from R&B and Pop have intrigued me with their sound, people like The Weeknd, Frank Ocean, Brent Faiyaz, and Post Malone to name a few are some of my favourite 'non-rap' artists. I love music and can't remember what my life was like without constantly listening to it.",
+        "favourites": "My favourite genre has to be rap with R&B, classic rock, and pop filling out some other notable spots. As for my favourite artists; I love Kanye West, Tee Grizzley, Drake, Kendrick Lamar, Travis Scott, Lil Wayne, and Tyler the Creator. My favourite song ever is 'First Day Out' by Tee Grizzley and my favourite album of all time is 'My Beautiful Dark Twisted Fantasy' by Kanye West.",
+        "imageB": "kdot.jpg", 
+        "imageC": "grizzley.jpg",
+        "imageD": "mbdtf.jpg"   
+    },
+    "VideoGames": {
+        "imageA": "vg.jpg",
+        "title": "Video Games: My favourite leisure activity",
+        "description": "When it comes to television, movies, books, or any other entertainment there is nothing I like more than video games. I first started playing games with the Wii and loved playing Wii Sports, Mario Bros, MarioKart, any Lego game, NHL Slapshot, and making Miis. I then got an XBOX 360 with which I started playing Minecraft, Fallout 3, Skate 3, and the NHL series. I then bought a PS4 with which I played religiously throughout highschool whether it was Fortnite, Call of Duty, GTA 5, NHL, Star Wars Battlefront, or whichever solo game I was playing at the time. I have poured hours of my free time into video games and love the memories I have from them.",
+        "favourites": "The title for 'Favourite Video Game' is always difficult for me because I find it hard to compare solo games and online multiplayers. My all time favourite game has to be Fortnite because I played it so much with my friends and it was the first game that I was active from start to finish of its inception. My favourite solo player game is Red Dead Redemption 2, but I have to mention The Last of Us series, and the Batman Arkham series for being very close contenders",
+        "imageB": "mariokart.jpg", 
+        "imageC": "ps4.jpg",
+        "imageD": "rdr2.jpg"   
+    }
+}

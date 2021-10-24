@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Sasha's Favourite Things</title>
+</head>
+    <body>       
+        <button data-modal-target="#modal1" people-key="Hockey"><img src="images/hockeySplash.jpg"></button>
+        <button data-modal-target="#modal2"><img src="images/musicSplash.jpg"></button>
+        <button data-modal-target="#modal3"><img src="images/videoGames.jpg"></button>
+
+        <section id="favouriteThings">
+            <div class="modal" id="modal1">
+            <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div data-modal-target="#modal2" class="modal" id="modal2">
+            <button data-close-button class="close-button">&times;</button>   
+            </div>
+            <div data-modal-target="#modal3" class="modal" id="modal3">
+            <button data-close-button class="close-button">&times;</button>  
+            </div>
+        </section>
+
+        <template id="bio-template">
+            <section class="bio-panel">
+                <div class="p_imageA">
+                    <img src="" alt="">
+                </div>
+
+                <h2 class="p_title">slug</h2>
+                <p class="p_description">slug</p>
+                <p class="p-favourites">
+                    slug
+                </p>
+                <div class="p_imageB">
+                    <img src="" alt="">
+                </div>
+                <div class="p_imageC">
+                    <img src="" alt="">
+                </div>
+                <div class="p_imageD">
+                    <img src="" alt="">
+                </div>
+            </section>
+        </template>
+        <div id="overlay"></div>
+        
+    <script src="js/main.js" type="module" defer></script>
+    </body>
+</html>
