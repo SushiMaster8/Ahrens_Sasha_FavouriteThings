@@ -1,6 +1,44 @@
 (() => {
-    const   theStuff = document.querySelector("#favouriteThings"),
+    const   openModalButtons = document.querySelectorAll('[data-modal-target]'),
+            closeModalButtons = document.querySelectorAll('[data-close-button]'),
+            overlay = document.getElementById('overlay'),
+            theStuff = document.querySelector("#modal2"),
             theTemplate = document.querySelector("#bio-template").content 
+    
+    openModalButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const modal = document.querySelector(button.dataset.modalTarget)
+            openModal(modal)
+        })
+    })        
+
+    overlay.addEventListener('click', () => {
+        const modals = document.querySelectorAll('.modal.active')
+        modals.forEach(modal => {
+          closeModal(modal)
+        })
+    })
+    
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+        closeModal(modal)
+      })
+    })
+
+    function openModal(modal) {
+        if (modal == null) return
+        modal.classList.add('active')
+        overlay.classList.add('active')
+      }
+      
+      function closeModal(modal) {
+        if (modal == null) return
+        modal.classList.remove('active')
+        overlay.classList.remove('active')
+      }      
+
+
 
     function getData() {
         fetch("./data.json")

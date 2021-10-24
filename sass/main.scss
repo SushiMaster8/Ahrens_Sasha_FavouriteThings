@@ -3,3 +3,10 @@
 @import "modules/queries";
 
 @import "modules/defaults";
+@import "modules/splash";
+@import "modules/things";
+@import "modules/modals";
+
+body {
+    background-color: black;
+}
