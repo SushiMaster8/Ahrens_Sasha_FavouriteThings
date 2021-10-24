@@ -12,6 +12,7 @@ Once you've downloaded the project folder, open the index.html file in any inter
 This project was made by ME! Sasha Ahrens. (However, I would be remissed if I didn't mention the resources online...)
 
 # Credits
+MODAL FORMAT: https://www.youtube.com/watch?v=MBaw_6cPmAw&t=335s
 
 # License
 Copyright 2021 SASHA AHRENS
